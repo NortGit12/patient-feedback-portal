@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A077210B273727B700B31E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077210A273727B700B31E30 /* AppDelegate.swift */; };
+		A077210D273727B700B31E30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077210C273727B700B31E30 /* SceneDelegate.swift */; };
+		A077210F273727B700B31E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077210E273727B700B31E30 /* ViewController.swift */; };
+		A0772112273727B700B31E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0772110273727B700B31E30 /* Main.storyboard */; };
+		A0772114273727B800B31E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0772113273727B800B31E30 /* Assets.xcassets */; };
+		A0772117273727B800B31E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0772115273727B800B31E30 /* LaunchScreen.storyboard */; };
+		A0772122273727B900B31E30 /* patient_feedback_portalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0772121273727B900B31E30 /* patient_feedback_portalTests.swift */; };
+		A077212C273727B900B31E30 /* patient_feedback_portalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077212B273727B900B31E30 /* patient_feedback_portalUITests.swift */; };
+		A077212E273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077212D273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A077211E273727B900B31E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07720FF273727B700B31E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0772106273727B700B31E30;
+			remoteInfo = "patient-feedback-portal";
+		};
+		A0772128273727B900B31E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A07720FF273727B700B31E30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0772106273727B700B31E30;
+			remoteInfo = "patient-feedback-portal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0772107273727B700B31E30 /* patient-feedback-portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "patient-feedback-portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A077210A273727B700B31E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A077210C273727B700B31E30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A077210E273727B700B31E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0772111273727B700B31E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0772113273727B800B31E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0772116273727B800B31E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0772118273727B800B31E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A077211D273727B900B31E30 /* patient-feedback-portalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "patient-feedback-portalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0772121273727B900B31E30 /* patient_feedback_portalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient_feedback_portalTests.swift; sourceTree = "<group>"; };
+		A0772127273727B900B31E30 /* patient-feedback-portalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "patient-feedback-portalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A077212B273727B900B31E30 /* patient_feedback_portalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient_feedback_portalUITests.swift; sourceTree = "<group>"; };
+		A077212D273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient_feedback_portalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0772104273727B700B31E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A077211A273727B900B31E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0772124273727B900B31E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07720FE273727B700B31E30 = {
+			isa = PBXGroup;
+			children = (
+				A0772109273727B700B31E30 /* patient-feedback-portal */,
+				A0772120273727B900B31E30 /* patient-feedback-portalTests */,
+				A077212A273727B900B31E30 /* patient-feedback-portalUITests */,
+				A0772108273727B700B31E30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0772108273727B700B31E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0772107273727B700B31E30 /* patient-feedback-portal.app */,
+				A077211D273727B900B31E30 /* patient-feedback-portalTests.xctest */,
+				A0772127273727B900B31E30 /* patient-feedback-portalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0772109273727B700B31E30 /* patient-feedback-portal */ = {
+			isa = PBXGroup;
+			children = (
+				A077210A273727B700B31E30 /* AppDelegate.swift */,
+				A077210C273727B700B31E30 /* SceneDelegate.swift */,
+				A077210E273727B700B31E30 /* ViewController.swift */,
+				A0772110273727B700B31E30 /* Main.storyboard */,
+				A0772113273727B800B31E30 /* Assets.xcassets */,
+				A0772115273727B800B31E30 /* LaunchScreen.storyboard */,
+				A0772118273727B800B31E30 /* Info.plist */,
+			);
+			path = "patient-feedback-portal";
+			sourceTree = "<group>";
+		};
+		A0772120273727B900B31E30 /* patient-feedback-portalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0772121273727B900B31E30 /* patient_feedback_portalTests.swift */,
+			);
+			path = "patient-feedback-portalTests";
+			sourceTree = "<group>";
+		};
+		A077212A273727B900B31E30 /* patient-feedback-portalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A077212B273727B900B31E30 /* patient_feedback_portalUITests.swift */,
+				A077212D273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift */,
+			);
+			path = "patient-feedback-portalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0772106273727B700B31E30 /* patient-feedback-portal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0772131273727B900B31E30 /* Build configuration list for PBXNativeTarget "patient-feedback-portal" */;
+			buildPhases = (
+				A0772103273727B700B31E30 /* Sources */,
+				A0772104273727B700B31E30 /* Frameworks */,
+				A0772105273727B700B31E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "patient-feedback-portal";
+			productName = "patient-feedback-portal";
+			productReference = A0772107273727B700B31E30 /* patient-feedback-portal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A077211C273727B900B31E30 /* patient-feedback-portalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0772134273727B900B31E30 /* Build configuration list for PBXNativeTarget "patient-feedback-portalTests" */;
+			buildPhases = (
+				A0772119273727B900B31E30 /* Sources */,
+				A077211A273727B900B31E30 /* Frameworks */,
+				A077211B273727B900B31E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A077211F273727B900B31E30 /* PBXTargetDependency */,
+			);
+			name = "patient-feedback-portalTests";
+			productName = "patient-feedback-portalTests";
+			productReference = A077211D273727B900B31E30 /* patient-feedback-portalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0772126273727B900B31E30 /* patient-feedback-portalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0772137273727B900B31E30 /* Build configuration list for PBXNativeTarget "patient-feedback-portalUITests" */;
+			buildPhases = (
+				A0772123273727B900B31E30 /* Sources */,
+				A0772124273727B900B31E30 /* Frameworks */,
+				A0772125273727B900B31E30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0772129273727B900B31E30 /* PBXTargetDependency */,
+			);
+			name = "patient-feedback-portalUITests";
+			productName = "patient-feedback-portalUITests";
+			productReference = A0772127273727B900B31E30 /* patient-feedback-portalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A07720FF273727B700B31E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					A0772106273727B700B31E30 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					A077211C273727B900B31E30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A0772106273727B700B31E30;
+					};
+					A0772126273727B900B31E30 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A0772106273727B700B31E30;
+					};
+				};
+			};
+			buildConfigurationList = A0772102273727B700B31E30 /* Build configuration list for PBXProject "patient-feedback-portal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A07720FE273727B700B31E30;
+			productRefGroup = A0772108273727B700B31E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0772106273727B700B31E30 /* patient-feedback-portal */,
+				A077211C273727B900B31E30 /* patient-feedback-portalTests */,
+				A0772126273727B900B31E30 /* patient-feedback-portalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0772105273727B700B31E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0772117273727B800B31E30 /* LaunchScreen.storyboard in Resources */,
+				A0772114273727B800B31E30 /* Assets.xcassets in Resources */,
+				A0772112273727B700B31E30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A077211B273727B900B31E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0772125273727B900B31E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0772103273727B700B31E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A077210F273727B700B31E30 /* ViewController.swift in Sources */,
+				A077210B273727B700B31E30 /* AppDelegate.swift in Sources */,
+				A077210D273727B700B31E30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0772119273727B900B31E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0772122273727B900B31E30 /* patient_feedback_portalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0772123273727B900B31E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A077212C273727B900B31E30 /* patient_feedback_portalUITests.swift in Sources */,
+				A077212E273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A077211F273727B900B31E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0772106273727B700B31E30 /* patient-feedback-portal */;
+			targetProxy = A077211E273727B900B31E30 /* PBXContainerItemProxy */;
+		};
+		A0772129273727B900B31E30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0772106273727B700B31E30 /* patient-feedback-portal */;
+			targetProxy = A0772128273727B900B31E30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0772110273727B700B31E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0772111273727B700B31E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0772115273727B800B31E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0772116273727B800B31E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A077212F273727B900B31E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0772130273727B900B31E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0772132273727B900B31E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6ASF988U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "patient-feedback-portal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnort.patient-feedback-portal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0772133273727B900B31E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6ASF988U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "patient-feedback-portal/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnort.patient-feedback-portal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0772135273727B900B31E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6ASF988U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnort.patient-feedback-portalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/patient-feedback-portal.app/patient-feedback-portal";
+			};
+			name = Debug;
+		};
+		A0772136273727B900B31E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6ASF988U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnort.patient-feedback-portalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/patient-feedback-portal.app/patient-feedback-portal";
+			};
+			name = Release;
+		};
+		A0772138273727B900B31E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6ASF988U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnort.patient-feedback-portalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "patient-feedback-portal";
+			};
+			name = Debug;
+		};
+		A0772139273727B900B31E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A6ASF988U5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jnort.patient-feedback-portalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "patient-feedback-portal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0772102273727B700B31E30 /* Build configuration list for PBXProject "patient-feedback-portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A077212F273727B900B31E30 /* Debug */,
+				A0772130273727B900B31E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0772131273727B900B31E30 /* Build configuration list for PBXNativeTarget "patient-feedback-portal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0772132273727B900B31E30 /* Debug */,
+				A0772133273727B900B31E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0772134273727B900B31E30 /* Build configuration list for PBXNativeTarget "patient-feedback-portalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0772135273727B900B31E30 /* Debug */,
+				A0772136273727B900B31E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0772137273727B900B31E30 /* Build configuration list for PBXNativeTarget "patient-feedback-portalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0772138273727B900B31E30 /* Debug */,
+				A0772139273727B900B31E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A07720FF273727B700B31E30 /* Project object */;
+}

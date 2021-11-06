@@ -16,6 +16,8 @@
 		A0772122273727B900B31E30 /* patient_feedback_portalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0772121273727B900B31E30 /* patient_feedback_portalTests.swift */; };
 		A077212C273727B900B31E30 /* patient_feedback_portalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077212B273727B900B31E30 /* patient_feedback_portalUITests.swift */; };
 		A077212E273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077212D273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift */; };
+		A077213C27372FB800B31E30 /* patient-feedback-raw-data.json in Resources */ = {isa = PBXBuildFile; fileRef = A077213B27372FB700B31E30 /* patient-feedback-raw-data.json */; };
+		A077213D27372FB800B31E30 /* patient-feedback-raw-data.json in Resources */ = {isa = PBXBuildFile; fileRef = A077213B27372FB700B31E30 /* patient-feedback-raw-data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		A0772127273727B900B31E30 /* patient-feedback-portalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "patient-feedback-portalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A077212B273727B900B31E30 /* patient_feedback_portalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient_feedback_portalUITests.swift; sourceTree = "<group>"; };
 		A077212D273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patient_feedback_portalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A077213B27372FB700B31E30 /* patient-feedback-raw-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "patient-feedback-raw-data.json"; path = "../../../../Downloads/patient-feedback-raw-data.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,7 @@
 		A07720FE273727B700B31E30 = {
 			isa = PBXGroup;
 			children = (
+				A077213A27372F9900B31E30 /* data */,
 				A0772109273727B700B31E30 /* patient-feedback-portal */,
 				A0772120273727B900B31E30 /* patient-feedback-portalTests */,
 				A077212A273727B900B31E30 /* patient-feedback-portalUITests */,
@@ -125,6 +129,14 @@
 				A077212D273727B900B31E30 /* patient_feedback_portalUITestsLaunchTests.swift */,
 			);
 			path = "patient-feedback-portalUITests";
+			sourceTree = "<group>";
+		};
+		A077213A27372F9900B31E30 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A077213B27372FB700B31E30 /* patient-feedback-raw-data.json */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +246,7 @@
 				A0772117273727B800B31E30 /* LaunchScreen.storyboard in Resources */,
 				A0772114273727B800B31E30 /* Assets.xcassets in Resources */,
 				A0772112273727B700B31E30 /* Main.storyboard in Resources */,
+				A077213C27372FB800B31E30 /* patient-feedback-raw-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A077213D27372FB800B31E30 /* patient-feedback-raw-data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

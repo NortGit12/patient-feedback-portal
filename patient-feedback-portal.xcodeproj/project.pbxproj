@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		A077210B273727B700B31E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077210A273727B700B31E30 /* AppDelegate.swift */; };
 		A077210D273727B700B31E30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077210C273727B700B31E30 /* SceneDelegate.swift */; };
-		A077210F273727B700B31E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077210E273727B700B31E30 /* ViewController.swift */; };
 		A0772112273727B700B31E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0772110273727B700B31E30 /* Main.storyboard */; };
 		A0772114273727B800B31E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0772113273727B800B31E30 /* Assets.xcassets */; };
 		A0772117273727B800B31E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0772115273727B800B31E30 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,13 @@
 		A077214527377E8E00B31E30 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077214427377E8E00B31E30 /* ProfileVC.swift */; };
 		A077214727377FE200B31E30 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077214627377FE200B31E30 /* Constants.swift */; };
 		A07721492737881B00B31E30 /* patient-feedback-raw-data.json in Resources */ = {isa = PBXBuildFile; fileRef = A07721482737881B00B31E30 /* patient-feedback-raw-data.json */; };
+		A077214B273873E400B31E30 /* SurveyPatientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077214A273873E400B31E30 /* SurveyPatientView.swift */; };
+		A07721502738848200B31E30 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077214F2738848200B31E30 /* Person.swift */; };
+		A077215227388F2000B31E30 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A077215127388F2000B31E30 /* Location.swift */; };
+		A07721542738937C00B31E30 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07721532738937C00B31E30 /* Common.swift */; };
+		A07721562739AF0800B31E30 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07721552739AF0800B31E30 /* Event.swift */; };
+		A07721582739AF1000B31E30 /* Diagnosis.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07721572739AF1000B31E30 /* Diagnosis.swift */; };
+		A077215A2739C21300B31E30 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07721592739C21300B31E30 /* Survey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +48,6 @@
 		A0772107273727B700B31E30 /* patient-feedback-portal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "patient-feedback-portal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A077210A273727B700B31E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A077210C273727B700B31E30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A077210E273727B700B31E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0772111273727B700B31E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0772113273727B800B31E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0772116273727B800B31E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,6 +60,13 @@
 		A077214427377E8E00B31E30 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		A077214627377FE200B31E30 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A07721482737881B00B31E30 /* patient-feedback-raw-data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "patient-feedback-raw-data.json"; sourceTree = "<group>"; };
+		A077214A273873E400B31E30 /* SurveyPatientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyPatientView.swift; sourceTree = "<group>"; };
+		A077214F2738848200B31E30 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		A077215127388F2000B31E30 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		A07721532738937C00B31E30 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		A07721552739AF0800B31E30 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A07721572739AF1000B31E30 /* Diagnosis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagnosis.swift; sourceTree = "<group>"; };
+		A07721592739C21300B31E30 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +117,11 @@
 		A0772109273727B700B31E30 /* patient-feedback-portal */ = {
 			isa = PBXGroup;
 			children = (
+				A077214C2738831E00B31E30 /* models */,
 				A077213A27372F9900B31E30 /* data */,
-				A077213E273776C700B31E30 /* home */,
-				A077214327377E5700B31E30 /* profile */,
-				A077213F2737783400B31E30 /* surveys */,
+				A077214D2738834700B31E30 /* views */,
 				A077210A273727B700B31E30 /* AppDelegate.swift */,
 				A077210C273727B700B31E30 /* SceneDelegate.swift */,
-				A077210E273727B700B31E30 /* ViewController.swift */,
 				A077214627377FE200B31E30 /* Constants.swift */,
 				A0772113273727B800B31E30 /* Assets.xcassets */,
 				A0772115273727B800B31E30 /* LaunchScreen.storyboard */,
@@ -156,6 +166,7 @@
 		A077213F2737783400B31E30 /* surveys */ = {
 			isa = PBXGroup;
 			children = (
+				A077214A273873E400B31E30 /* SurveyPatientView.swift */,
 			);
 			path = surveys;
 			sourceTree = "<group>";
@@ -166,6 +177,29 @@
 				A077214427377E8E00B31E30 /* ProfileVC.swift */,
 			);
 			path = profile;
+			sourceTree = "<group>";
+		};
+		A077214C2738831E00B31E30 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A07721532738937C00B31E30 /* Common.swift */,
+				A07721552739AF0800B31E30 /* Event.swift */,
+				A07721572739AF1000B31E30 /* Diagnosis.swift */,
+				A077215127388F2000B31E30 /* Location.swift */,
+				A077214F2738848200B31E30 /* Person.swift */,
+				A07721592739C21300B31E30 /* Survey.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		A077214D2738834700B31E30 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A077213E273776C700B31E30 /* home */,
+				A077214327377E5700B31E30 /* profile */,
+				A077213F2737783400B31E30 /* surveys */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,11 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07721542738937C00B31E30 /* Common.swift in Sources */,
+				A07721502738848200B31E30 /* Person.swift in Sources */,
 				A077214727377FE200B31E30 /* Constants.swift in Sources */,
+				A07721562739AF0800B31E30 /* Event.swift in Sources */,
 				A077214527377E8E00B31E30 /* ProfileVC.swift in Sources */,
-				A077210F273727B700B31E30 /* ViewController.swift in Sources */,
+				A077214B273873E400B31E30 /* SurveyPatientView.swift in Sources */,
+				A077215A2739C21300B31E30 /* Survey.swift in Sources */,
 				A077210B273727B700B31E30 /* AppDelegate.swift in Sources */,
+				A07721582739AF1000B31E30 /* Diagnosis.swift in Sources */,
 				A077210D273727B700B31E30 /* SceneDelegate.swift in Sources */,
+				A077215227388F2000B31E30 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
